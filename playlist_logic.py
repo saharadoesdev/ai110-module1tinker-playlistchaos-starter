@@ -186,14 +186,15 @@ def lucky_pick(
     else:
         songs = playlists.get("Hype", []) + playlists.get("Chill", []) + playlists.get("Mixed", []) # fixed this: wasn't using Mixed
 
-    return random_choice_or_none(songs)
-
-
-def random_choice_or_none(songs: List[Song]) -> Optional[Song]:
     """Return a random song or None."""
     import random
-
+    if not songs:   # added this check so it matches what it's supposed to do, according to docstring (didn't return None before)
+        return None
     return random.choice(songs)
+    # return random_choice_or_none(songs)
+
+# moved content of this function up, for clarity/readability
+# def random_choice_or_none(songs: List[Song]) -> Optional[Song]:
 
 
 def history_summary(history: List[Song]) -> Dict[str, int]:
