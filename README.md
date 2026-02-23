@@ -1,3 +1,18 @@
+## Summary of this Tinker from Tech Fellow perspective:
+
+- The core concept students needed to understand
+
+The core concept students should understand for this is how to break down debugging into a process and not rely on AI for their thinking (not just prompting "fix any issues", etc.). They should know how to identify bugs, explore what could cause them, describe them to the AI, explore potential solutions, implement those solutions, and then test them; all of this can be done with AI assistance without outsourcing your thinking.
+- Where students are most likely to struggle
+
+I think the hardest part of this was finding the bugs. You had to do a lot of testing on all different parts of this program, and I know there are still plenty I missed. It took a good understanding of what the program was supposed to do, and it would be significantly harder to find or fix bugs if you just dove straight in without reading the explanations or thoroughly testing the program first.
+- Where AI was helpful vs. misleading
+
+I found that AI was most misleading when it didn't have the full context. It was helpful when specific directions and lots of context were given and when I at least generally understood what the code was supposed to be doing and could critically read the AI's responses.
+- One way you would guide a student without giving the answer
+
+For this Tinker, I would guide the students by encouraging them to step back - if they're stuck on a certain bug, I would ask them what that part of the code should generally be doing, then compare it to what it's actually doing. I would encourage AI use here to ask questions about expected vs unexpected behavior, and to gain an understanding before looking too closely at the code.
+
 # Playlist Chaos
 
 Your AI assistant tried to build a smart playlist generator. The app runs, but some of the behavior is unpredictable. Your task is to explore the app, investigate the code, and use an AI assistant to debug and improve it.
